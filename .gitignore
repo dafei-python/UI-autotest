@@ -1,1 +1,9 @@
+Git忽略上传文件配置
+
+# 编译缓存
+__pycache__/
+*.pyc
+
+# IDE配置
 .idea/
+.vscode/

@@ -105,8 +105,10 @@ allure generate ../../report -o ../../report/html --clean
 1. 确保已安装Chrome浏览器和对应版本的ChromeDriver
 2. 测试数据文件需放在data目录下
 3. 元素定位表达式需根据实际页面调整
-4. 建议使用虚拟环境管理依赖
+4. 本项目基于开源商城进行，请勿用于违规操作。
+
 
 ## 许可证
 
 MIT License
+
