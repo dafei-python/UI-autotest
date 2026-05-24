@@ -1,0 +1,65 @@
+2026-05-23 17:17:25,804INFO[get_driver.py(<module>:7)]-driver驱动类
+2026-05-23 17:17:25,804INFO[get_driver.py(GetDriver:12)]-设置driver
+2026-05-23 17:17:25,804INFO[get_driver.py(GetDriver:16)]-启动浏览器驱动方法
+2026-05-23 17:17:25,804INFO[get_driver.py(GetDriver:36)]-关闭浏览器
+2026-05-23 17:17:25,804INFO[read_json.py(<module>:10)]-调用读取json文件的函数
+2026-05-23 17:17:25,806INFO[common.py(Common:14)]-调用初始化driver方法
+2026-05-23 17:17:25,806INFO[common.py(Common:21)]-调用查找元素方法
+2026-05-23 17:17:25,806INFO[common.py(Common:35)]-调用点击方法
+2026-05-23 17:17:25,806INFO[common.py(Common:46)]-调用输入方法
+2026-05-23 17:17:25,806INFO[common.py(Common:66)]-调用加密图片，解码并保存本地方法
+2026-05-23 17:17:25,806INFO[common.py(Common:112)]-调用按住鼠标左键并拖动，然后释放鼠标方法
+2026-05-23 17:17:25,806INFO[common.py(Common:137)]-调用获取文字方法
+2026-05-23 17:17:25,806INFO[common.py(Common:153)]-切换页面句柄
+2026-05-23 17:17:25,806INFO[common.py(Common:170)]-滑动页面至可见元素
+2026-05-23 17:17:25,892INFO[make_picture.py(<module>:7)]-滑块拼接图片处理类
+2026-05-23 17:17:25,892INFO[make_picture.py(Make_Picture:12)]-调用图片进行灰度、模糊处理方法
+2026-05-23 17:17:25,892INFO[make_picture.py(Make_Picture:26)]-获取图像移动距离
+2026-05-23 17:17:25,892INFO[login.py(<module>:12)]-商城登录类
+2026-05-23 17:17:25,892INFO[login.py(PageLogin:17)]-输入用户名
+2026-05-23 17:17:25,892INFO[login.py(PageLogin:24)]-输入密码
+2026-05-23 17:17:25,892INFO[login.py(PageLogin:31)]-点击登录
+2026-05-23 17:17:25,892INFO[login.py(PageLogin:38)]-验证滑块
+2026-05-23 17:17:25,892INFO[login.py(PageLogin:53)]-获取登录成功后文字
+2026-05-23 17:17:25,892INFO[login.py(PageLogin:60)]-综合调用方法
+2026-05-23 17:17:25,892INFO[test_login.py(TestLogin:18)]-初始化
+2026-05-23 17:17:25,892INFO[test_login.py(TestLogin:28)]-结束
+2026-05-23 17:17:25,892INFO[test_login.py(TestLogin:34)]-调用page层的综合调用方法
+2026-05-23 17:17:25,896INFO[read_json.py(read_json:20)]-读取文件路径为：/Users/youth/Downloads/00-social-media/01-Develop/01-code/GitHub-Sync/autotest-work/data//sale/login.json
+2026-05-23 17:17:25,896INFO[read_json.py(read_json:22)]-读取文件
+2026-05-23 17:17:25,896INFO[read_json.py(read_json:25)]-返回读取文件
+2026-05-23 17:17:25,896INFO[get_driver.py(get_driver:20)]-判断是否为空
+2026-05-23 17:17:25,896INFO[get_driver.py(get_driver:23)]-为空，启动浏览器驱动
+2026-05-23 17:22:26,047WARNING[selenium_manager.py(_process_logs:138)]-There was an error managing chromedriver (error decoding response body); using driver found in the cache
+2026-05-23 17:22:27,128INFO[get_driver.py(get_driver:26)]-最大化
+2026-05-23 17:22:27,486INFO[get_driver.py(get_driver:29)]-打开url为：https://store-b2b2c.pickmall.cn/login
+2026-05-23 17:22:29,633INFO[get_driver.py(get_driver:32)]-返回driver
+2026-05-23 17:22:31,640INFO[common.py(common_input:56)]-查找输入('css selector', "[placeholder='请输入用户名']")元素
+2026-05-23 17:22:31,657INFO[common.py(common_input:59)]-置空输入框
+2026-05-23 17:22:31,681INFO[common.py(common_input:62)]-输入数值13011111111
+2026-05-23 17:22:32,767INFO[common.py(common_input:56)]-查找输入('css selector', "[placeholder='请输入密码']")元素
+2026-05-23 17:22:32,781INFO[common.py(common_input:59)]-置空输入框
+2026-05-23 17:22:32,796INFO[common.py(common_input:62)]-输入数值111111
+2026-05-23 17:22:34,830INFO[common.py(common_click:42)]-正在点击('xpath', '//*[@id="main"]/div/div/div/div[2]/div[2]/div')元素
+2026-05-23 17:22:36,883INFO[common.py(common_save_picture:76)]-获取图片元素定位('xpath', '//*[@id="main"]/div/div/div/div[4]/div[1]/img[2]')
+2026-05-23 17:22:39,462INFO[common.py(common_save_picture:80)]-获取图片的加密地址
+2026-05-23 17:22:39,473INFO[common.py(common_save_picture:84)]-拆分成加密为base64常规格式
+2026-05-23 17:22:39,474INFO[common.py(common_save_picture:88)]-获取图片的base64加密数据
+2026-05-23 17:22:39,474INFO[common.py(common_save_picture:92)]-base64解码
+2026-05-23 17:22:39,474INFO[common.py(common_save_picture:98)]-背景图片保存路径/Users/youth/Downloads/00-social-media/01-Develop/01-code/GitHub-Sync/autotest-work/result/image/big.png,拼接图片保存路径/Users/youth/Downloads/00-social-media/01-Develop/01-code/GitHub-Sync/autotest-work/result/image/samll.png
+2026-05-23 17:22:39,474INFO[common.py(common_save_picture:100)]-图片保存本地
+2026-05-23 17:22:39,475INFO[common.py(common_save_picture:106)]-关闭保存的图片
+2026-05-23 17:22:40,498INFO[make_picture.py(make_picture:22)]-返回处理结果
+2026-05-23 17:22:40,499INFO[make_picture.py(make_picture:22)]-返回处理结果
+2026-05-23 17:22:40,502INFO[make_picture.py(Measure_distance:40)]-返回获取的距离190
+2026-05-23 17:22:41,504INFO[common.py(common_hold_mouse:122)]-获取元素定位('xpath', '//*[@id="main"]/div/div/div/div[4]/div[2]/span[2]')
+2026-05-23 17:22:41,517INFO[common.py(common_hold_mouse:125)]-按住对应元素('xpath', '//*[@id="main"]/div/div/div/div[4]/div[2]/span[2]')
+2026-05-23 17:22:42,790INFO[common.py(common_hold_mouse:129)]-滑动横向距离：190，纵向距离：0
+2026-05-23 17:22:44,056INFO[common.py(common_hold_mouse:133)]-释放鼠标
+2026-05-23 17:22:45,066INFO[test_login.py(test_login:47)]-断言成功
+2026-05-23 17:22:45,067INFO[common.py(common_get_word:146)]-获取文字的元素定位('xpath', '//*[@id="main"]/div/div[3]/div/div/div[1]/div[2]/h4')
+2026-05-23 17:23:06,045INFO[common.py(common_get_word:149)]-返回文字
+2026-05-23 17:23:08,068INFO[common.py(common_input:56)]-查找输入('css selector', "[placeholder='请输入用户名']")元素
+2026-05-23 17:24:00,211WARNING[connectionpool.py(urlopen:827)]-Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x11ca49f10>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/4378ff332ec5909a6a1cb97269c5d6d7
+2026-05-23 17:24:00,211WARNING[connectionpool.py(urlopen:827)]-Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x12a37c820>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/4378ff332ec5909a6a1cb97269c5d6d7
+2026-05-23 17:24:00,211WARNING[connectionpool.py(urlopen:827)]-Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x12a37c6a0>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/4378ff332ec5909a6a1cb97269c5d6d7

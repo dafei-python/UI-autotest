@@ -1,0 +1,61 @@
+2026-05-23 16:06:20,640INFO[get_driver.py(<module>:7)]-driver驱动类
+2026-05-23 16:06:20,640INFO[get_driver.py(GetDriver:12)]-设置driver
+2026-05-23 16:06:20,640INFO[get_driver.py(GetDriver:16)]-启动浏览器驱动方法
+2026-05-23 16:06:20,640INFO[get_driver.py(GetDriver:36)]-关闭浏览器
+2026-05-23 16:06:20,640INFO[read_json.py(<module>:10)]-调用读取json文件的函数
+2026-05-23 16:06:20,641INFO[common.py(Common:14)]-调用初始化driver方法
+2026-05-23 16:06:20,641INFO[common.py(Common:21)]-调用查找元素方法
+2026-05-23 16:06:20,641INFO[common.py(Common:35)]-调用点击方法
+2026-05-23 16:06:20,641INFO[common.py(Common:46)]-调用输入方法
+2026-05-23 16:06:20,641INFO[common.py(Common:66)]-调用加密图片，解码并保存本地方法
+2026-05-23 16:06:20,641INFO[common.py(Common:112)]-调用按住鼠标左键并拖动，然后释放鼠标方法
+2026-05-23 16:06:20,641INFO[common.py(Common:137)]-调用获取文字方法
+2026-05-23 16:06:20,641INFO[common.py(Common:153)]-切换页面句柄
+2026-05-23 16:06:20,641INFO[common.py(Common:170)]-滑动页面至可见元素
+2026-05-23 16:06:20,641INFO[common.py(Common:183)]-将当前页面保存为PDF（兼容新版Selenium）
+2026-05-23 16:06:20,664INFO[make_picture.py(<module>:7)]-滑块拼接图片处理类
+2026-05-23 16:06:20,664INFO[make_picture.py(Make_Picture:12)]-调用图片进行灰度、模糊处理方法
+2026-05-23 16:06:20,664INFO[make_picture.py(Make_Picture:26)]-获取图像移动距离
+2026-05-23 16:06:20,664INFO[login.py(<module>:12)]-商城登录类
+2026-05-23 16:06:20,664INFO[login.py(PageLogin:17)]-输入用户名
+2026-05-23 16:06:20,664INFO[login.py(PageLogin:24)]-输入密码
+2026-05-23 16:06:20,664INFO[login.py(PageLogin:31)]-点击登录
+2026-05-23 16:06:20,664INFO[login.py(PageLogin:38)]-验证滑块
+2026-05-23 16:06:20,664INFO[login.py(PageLogin:52)]-获取登录成功后文字
+2026-05-23 16:06:20,664INFO[login.py(PageLogin:59)]-综合调用方法
+2026-05-23 16:06:20,665INFO[test_login.py(TestLogin:13)]-初始化
+2026-05-23 16:06:20,665INFO[test_login.py(TestLogin:22)]-结束
+2026-05-23 16:06:20,665INFO[test_login.py(TestLogin:28)]-调用page层的综合调用方法
+2026-05-23 16:06:20,667INFO[read_json.py(read_json:20)]-读取文件路径为：/Users/youth/Downloads/00-social-media/01-Develop/01-code/GitHub-Sync/autotest-work/data/login.json
+2026-05-23 16:06:20,667INFO[read_json.py(read_json:22)]-读取文件
+2026-05-23 16:06:20,667INFO[read_json.py(read_json:25)]-返回读取文件
+2026-05-23 16:06:20,667INFO[get_driver.py(get_driver:20)]-判断是否为空
+2026-05-23 16:06:20,667INFO[get_driver.py(get_driver:23)]-为空，启动浏览器驱动
+2026-05-23 16:06:21,311INFO[get_driver.py(get_driver:26)]-最大化
+2026-05-23 16:06:21,653INFO[get_driver.py(get_driver:29)]-打开url为：https://pc-b2b2c.pickmall.cn/login
+2026-05-23 16:06:22,593INFO[get_driver.py(get_driver:32)]-返回driver
+2026-05-23 16:06:24,600INFO[common.py(common_input:56)]-查找输入('css selector', "[placeholder='用户名']")元素
+2026-05-23 16:06:24,617INFO[common.py(common_input:59)]-置空输入框
+2026-05-23 16:06:24,639INFO[common.py(common_input:62)]-输入数值ceshi
+2026-05-23 16:06:25,718INFO[common.py(common_input:56)]-查找输入('css selector', "[placeholder='密码']")元素
+2026-05-23 16:06:25,730INFO[common.py(common_input:59)]-置空输入框
+2026-05-23 16:06:25,745INFO[common.py(common_input:62)]-输入数值123456
+2026-05-23 16:06:27,779INFO[common.py(common_click:42)]-正在点击('xpath', '//*[@id="app"]/div/div[2]/div[2]/div[3]/div[1]/form[1]/div[3]/div/button')元素
+2026-05-23 16:06:29,828INFO[common.py(common_save_picture:76)]-获取图片元素定位('xpath', '//*[@id="app"]/div/div[2]/div[3]/div[1]/img[1]')
+2026-05-23 16:06:29,847INFO[common.py(common_save_picture:80)]-获取图片的加密地址
+2026-05-23 16:06:29,857INFO[common.py(common_save_picture:84)]-拆分成加密为base64常规格式
+2026-05-23 16:06:29,857INFO[common.py(common_save_picture:88)]-获取图片的base64加密数据
+2026-05-23 16:06:29,857INFO[common.py(common_save_picture:92)]-base64解码
+2026-05-23 16:06:29,857INFO[common.py(common_save_picture:98)]-背景图片保存路径/Users/youth/Downloads/00-social-media/01-Develop/01-code/GitHub-Sync/autotest-work/result/image/big.png,拼接图片保存路径/Users/youth/Downloads/00-social-media/01-Develop/01-code/GitHub-Sync/autotest-work/result/image/samll.png
+2026-05-23 16:06:29,857INFO[common.py(common_save_picture:100)]-图片保存本地
+2026-05-23 16:06:29,858INFO[common.py(common_save_picture:106)]-关闭保存的图片
+2026-05-23 16:06:30,865INFO[make_picture.py(make_picture:22)]-返回处理结果
+2026-05-23 16:06:30,865INFO[make_picture.py(make_picture:22)]-返回处理结果
+2026-05-23 16:06:30,867INFO[make_picture.py(Measure_distance:40)]-返回获取的距离125
+2026-05-23 16:06:31,872INFO[common.py(common_hold_mouse:122)]-获取元素定位('xpath', '//*[@id="app"]/div/div[2]/div[3]/div[2]/span[2]')
+2026-05-23 16:06:31,885INFO[common.py(common_hold_mouse:125)]-按住对应元素('xpath', '//*[@id="app"]/div/div[2]/div[3]/div[2]/span[2]')
+2026-05-23 16:06:33,156INFO[common.py(common_hold_mouse:129)]-滑动横向距离：125，纵向距离：0
+2026-05-23 16:06:34,422INFO[common.py(common_hold_mouse:133)]-释放鼠标
+2026-05-23 16:06:34,432INFO[test_login.py(test_login:36)]-断言成功
+2026-05-23 16:06:34,432INFO[common.py(common_get_word:146)]-获取文字的元素定位('xpath', '//*[@id="app"]/div/div[3]/div/ul[1]/ul/li[1]')
+2026-05-23 16:06:35,464INFO[common.py(common_get_word:149)]-返回文字

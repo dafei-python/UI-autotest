@@ -1,0 +1,33 @@
+INFO     root:read_json.py:20 读取文件路径为：/Users/youth/Downloads/00-social-media/01-Develop/01-code/GitHub-Sync/autotest-work/data/login.json
+INFO     root:read_json.py:22 读取文件
+INFO     root:read_json.py:25 返回读取文件
+INFO     root:get_driver.py:20 判断是否为空
+INFO     root:get_driver.py:23 为空，启动浏览器驱动
+INFO     root:get_driver.py:26 最大化
+INFO     root:get_driver.py:29 打开url为：https://pc-b2b2c.pickmall.cn/login
+INFO     root:get_driver.py:32 返回driver
+INFO     root:common.py:56 查找输入('css selector', "[placeholder='用户名']")元素
+INFO     root:common.py:59 置空输入框
+INFO     root:common.py:62 输入数值ceshi
+INFO     root:common.py:56 查找输入('css selector', "[placeholder='密码']")元素
+INFO     root:common.py:59 置空输入框
+INFO     root:common.py:62 输入数值123456
+INFO     root:common.py:42 正在点击('xpath', '//*[@id="app"]/div/div[2]/div[2]/div[3]/div[1]/form[1]/div[3]/div/button')元素
+INFO     root:common.py:76 获取图片元素定位('xpath', '//*[@id="app"]/div/div[2]/div[3]/div[1]/img[1]')
+INFO     root:common.py:80 获取图片的加密地址
+INFO     root:common.py:84 拆分成加密为base64常规格式
+INFO     root:common.py:88 获取图片的base64加密数据
+INFO     root:common.py:92 base64解码
+INFO     root:common.py:98 背景图片保存路径/Users/youth/Downloads/00-social-media/01-Develop/01-code/GitHub-Sync/autotest-work/result/image/big.png,拼接图片保存路径/Users/youth/Downloads/00-social-media/01-Develop/01-code/GitHub-Sync/autotest-work/result/image/samll.png
+INFO     root:common.py:100 图片保存本地
+INFO     root:common.py:106 关闭保存的图片
+INFO     root:make_picture.py:22 返回处理结果
+INFO     root:make_picture.py:22 返回处理结果
+INFO     root:make_picture.py:40 返回获取的距离125
+INFO     root:common.py:122 获取元素定位('xpath', '//*[@id="app"]/div/div[2]/div[3]/div[2]/span[2]')
+INFO     root:common.py:125 按住对应元素('xpath', '//*[@id="app"]/div/div[2]/div[3]/div[2]/span[2]')
+INFO     root:common.py:129 滑动横向距离：125，纵向距离：0
+INFO     root:common.py:133 释放鼠标
+INFO     root:test_login.py:36 断言成功
+INFO     root:common.py:146 获取文字的元素定位('xpath', '//*[@id="app"]/div/div[3]/div/ul[1]/ul/li[1]')
+INFO     root:common.py:149 返回文字
